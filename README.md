@@ -25,6 +25,9 @@
 ### **Resources:**
 
 >https://en.wikipedia.org/wiki/Alan_Turing
+
 >https://www.timetoast.com/timelines/the-life-of-alan-turing
+
 >https://everydaypower.com/alan-turing-quotes/
+
 >https://www.labmedya.com/uploads/haberler/labmedya_i-nsanligin-en-buyuk-problemi-alan-turing-in-66-yillik-kimya-teorisiyle-cozulebilir-.jpg
