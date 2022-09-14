@@ -43,7 +43,8 @@ p {
     display: block;
 }
 
-/* 8. Your `#image` should use `max-width` and `height` properties to resize responsively, relative to the width of its parent element, without exceeding its original size. */
+/* 8. Your `#image` should use `max-width` and `height` properties to resize responsively, 
+relative to the width of its parent element, without exceeding its original size. */
 #image {
     max-width: 100%;
     height: auto;
