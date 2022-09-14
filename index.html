@@ -9,22 +9,28 @@
   </head>
 
   <body>
+    <!-- 1. Your tribute page should have a `main` element with a corresponding `id` of `main`, which contains all other elements. -->
     <main id="main">
+      <!-- 2. You should see an element with an `id` of `title`, which contains a string (i.e. text), that describes the subject of the tribute page (e.g. "Dr. Norman Borlaug"). -->
       <h1 id="title">Alan Turing</h1>
       <p id="title-p">Father of theoretical computer science and artificial intelligence</p>
+      <!-- 3. You should see either a `figure` or a `div` element with an `id` of `img-div`. -->
       <figure id="img-div">
+        <!-- 4. Within the `#img-div` element, you should see an `img` element with a corresponding `id="image"`. -->
         <img class="zoom" id="image" src="/assets/alanturing.jpeg" alt="Alan Turing | The father of modern computer science"/>
+        <!-- 5. Within the `#img-div` element, you should see an element with a corresponding `id="img-caption"` that contains textual content describing the image shown in `#img-div`. -->
         <figcaption id="img-caption">
           Alan Turing (on the right), helped crack Nazi codes and established the field of artificial intelligence.
         </figcaption>
       </figure>
+      <!-- 6. You should see an element with a corresponding `id="tribute-info"`, which contains textual content describing the subject of the tribute page. -->
       <section id="tribute-info">
-        <h3 id="headline">Here's a time line of Alan Turing's life:</h3>
+        <h3 id="timeline">Here's a time line of Alan Turing's life:</h3>
 
       <div>
         <ul>
           <li><strong>JUN 23, 1912</strong> <em>| Born</em> - Alan Mathison Turing was born on June 23, 1912 in Maida Vale, London.
-</li>
+          </li>
           <br>
           <li>
             <strong>AUG 19, 1926</strong> <em>| Early Signs of Intelligence</em> - At the age of 13, Alan Turing first showed signs of intelligence and potential which was noticed at the Sherborne School.
@@ -95,6 +101,7 @@
 
         <hr>
         <footer>
+          <!-- 7. You should see an `a` element with a corresponding `id="tribute-link"`, which links to an outside site, that contains additional information about the subject of the tribute page. HINT: You must give your element an attribute of `target` and set it to `_blank` in order for your link to open in a new tab. -->
         <h3>
           If you have time, you should read more about this incredible human being on his <a id="tribute-link" href="https://en.wikipedia.org/wiki/Alan_Turing" target="_blank"> Wikipedia entry</a>.
         </h3>
