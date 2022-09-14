@@ -24,8 +24,8 @@ main {
 
 body {
     font-family: 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif;
-    font-size: 1.6rem;
-    line-height: 1.5;
+    font-size: 18px;
+    line-height: 40px;
     text-align: center;
     color: #333;
     margin: 0;
@@ -34,26 +34,19 @@ body {
 h1 {
     font-size: 4rem;
     margin-bottom: 0;
-
     display: block;
-    font-size: 2em;
-    margin-block-start: 0.67em;
-    margin-block-end: 0.67em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
+    font-size: 40px;
     font-weight: bold;
 }
 
 p {
     display: block;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
 }
 
+/* 8. Your `#image` should use `max-width` and `height` properties to resize responsively, relative to the width of its parent element, without exceeding its original size. */
 #image {
     max-width: 100%;
+    height: auto;
     display: block;  
     margin-left: auto;  
     margin-right: auto;  
@@ -61,23 +54,14 @@ p {
     padding: 5px;  
 }
 
+/* 9. Your `img` element should be centered within its parent element. */
 #img-div {
     display: block;
     margin-left: auto;
     margin-right: auto;
     max-width: 100%;
     background: white;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 40px;
-    margin-inline-end: 40px;
-}
-
-img {
-    max-width: 100%;
-    display: block;
-    height: auto;
-    margin: 0 auto;
+    padding: 20px;
 }
 
 #img-caption {
@@ -89,33 +73,18 @@ figcaption {
 }
 
 div {
-display: flex;
-justify-content: center;
-}
-
-#img-div {
-    background: white;
-    padding: 20px;
-    margin: 0;
+    display: flex;
+    justify-content: center;
+    text-align: center; 
 }
 
 section {
     display: block;
 }
 
-#headline {
+#timeline {
     margin: 50px 0;
     text-align: center;
-}
-
-h3 {
-    display: block;
-    font-size: 1.17em;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    font-weight: bold;
 }
 
 ul {
@@ -123,56 +92,23 @@ ul {
     margin: 0 auto 50px auto;
     text-align: left;
     line-height: 1.6;
-
     display: block;
     list-style-type: disc;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    padding-inline-start: 40px;
+    display: inline-block;
+    text-align: left;
 }
 
 li {
     margin: 16px 0;
     display: list-item;
-    text-align: -webkit-match-parent;
 }
 
 blockquote {
     font-style: italic;
-    max-width: 545px;
-    margin: 0 auto 50px auto;
+    max-width: 550px;
+    margin: 0 auto 30px auto;
     text-align: center;
-    
     display: inline-block;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 40px;
-    margin-inline-end: 40px;
-}
-
-h3 {
-    display: block;
-    font-size: 1.17em;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    font-weight: bold;
-}
-
-section {
-    display: block;
-}
-
-div { 
-    text-align: center; 
-}
-
-ul { 
-    display: inline-block;
-    text-align: left;
 }
 
 .zoom {
@@ -180,10 +116,10 @@ ul {
     background-color: white;
     transition: transform .2s;
     margin: 0 auto;
-  }
-  
-  .zoom:hover {
-    -ms-transform: scale(1.04); /* IE 9 */
-    -webkit-transform: scale(1.04); /* Safari 3-8 */
+}
+
+.zoom:hover {
+  -ms-transform: scale(1.04); /* IE 9 */
+  -webkit-transform: scale(1.04); /* Safari 3-8 */
     transform: scale(1.04); 
-  }
+}
